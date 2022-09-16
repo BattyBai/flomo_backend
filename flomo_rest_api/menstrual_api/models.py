@@ -6,6 +6,7 @@ class Menstrual(models.Model):
     title = models.TextField()
     # bloody = models.BooleanField(default=False)
     start = models.TextField()
+    end = models.TextField()
     # flow = models.TextField()
     # cramps = models.BooleanField(default=False)
     # migraine = models.BooleanField(default=False)
